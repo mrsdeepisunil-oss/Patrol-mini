@@ -1,0 +1,23 @@
+artifact_path: file:d:/Patrol/Final_patrolIQ/mlruns/1/models/m-b28047d14ab040a8bba9fa572b7a13fd/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-b28047d14ab040a8bba9fa572b7a13fd
+model_size_bytes: 2954905
+model_uuid: m-b28047d14ab040a8bba9fa572b7a13fd
+prompts: null
+run_id: bb5c79e888e745e380a506306a473af5
+utc_time_created: '2026-05-09 13:51:59.463216'
