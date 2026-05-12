@@ -13,7 +13,7 @@ st.set_page_config(page_title="PatrolIQ | Intelligence Suite", layout="wide")
 # --- 2. DATA ENGINE ---
 @st.cache_data
 def load_patrol_data():
-    dates = pd.date_range(start="2024-01-01", end="2024-12-31", freq="H")
+    dates = pd.date_range(start="2024-01-01", end="2024-12-31", freq="h")
     df = pd.DataFrame({
         "timestamp": dates,
         "lat": np.random.uniform(41.75, 41.95, len(dates)), 
