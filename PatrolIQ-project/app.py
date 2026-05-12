@@ -10,6 +10,7 @@ from sklearn.cluster import DBSCAN # For concept reference
 # --- 1. SETTINGS ---
 st.set_page_config(page_title="PatrolIQ | Intelligence Suite", layout="wide")
 
+
 # --- 2. DATA ENGINE ---
 @st.cache_data
 def load_patrol_data():
